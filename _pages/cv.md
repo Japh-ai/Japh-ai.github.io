@@ -6,6 +6,7 @@ author_profile: true
 redirect_from:
   - /resume
 ---
+[Download PDF version](/files/CV_sept_2023.pdf){: .btn .btn--inverse}
 
 {% include base_path %}
 
@@ -81,13 +82,9 @@ Field Experience
   * Conducted field operations for acquiring magnetotelluric data, deploying instrumentation in various regions of Norway, near Røros. Tasks included equipment setup, data monitoring, and ensuring data integrity for geophysical studies.
 
 
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
 Service and leadership
 ======
 * Active member of the Society of Exploration Geophysicists.
 * Delegate at the International Student Energy Summit, London, 2019.
+
+

@@ -26,7 +26,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "PhD candidate, Seismologist and Machine learning enthusiast"
   location         : "Earth"
-  employer         : "Institute of Geophysics, Czech Academy of Science"
+  employer         : "Institute of Geophysics, CAS"
   uri              : # URL
   email            : "puente@ig.cas.cz" 
 
@@ -56,7 +56,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : https://www.linkedin.com/in/jorgepuente/ # Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
