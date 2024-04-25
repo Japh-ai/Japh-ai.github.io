@@ -11,35 +11,53 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D. in Seismology, Charles University in Prague, Expected 2025
+* M.S. in Earth Sciences, Major in Applied Geophysics, Center for Scientific Research and Higher Education at Ensenada, 2019
+* B.S. in Geosciences Engineering, Instituto Tecnológico de Ciudad Madero, 2017
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **2021 - Present**: Researcher (Ph.D. candidate)
+  * Institute of Geophysics, Czech Academy of Sciences
+  * Duties include: Conducting fundamental and applied research in Earth Sciences.
+  * Supervisor: Christian Sippl
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* **Oct 2023 - Dec 2023**: Visiting Research Fellow
+  * Universidad de Concepción, Concepción, Biobío Region, Chile
+  * Full-time position focused on applying deep learning techniques in seismology, specially in Northern Chile's seismicity.
+  * Conducted research aimed at improving seismic data analysis through the integration of advanced machine learning models.
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* **2020 - 2020**: Field Geophysicist Engineer
+  * Geo Explorer Solutions
+  * Duties included: Data acquisition for water exploration using geophysical methods.
   
+
+* **2020 - 2021**: IT Trainee
+  * Tata Consultancy Services
+  * Duties included: Supporting web applications and client requirements on Windows and Linux systems.
+  
+
+* **2017 - 2019**: Data Processing & Interpretation Geophysicist Engineer
+  * Center for Scientific Research and Higher Education at Ensenada
+  * Duties included: Seismic data processing and interpretation for geophysical research.
+  * Supervisor: Mario Gonzalez Escobar
+
+
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Programming and Scripting**: Strong knowledge in Python. Familiar with PyTorch for deep learning algorithms and applications.
+* **Scientific and Technical Computing**:
+  * Extensive use of ObsPy for seismic data processing.
+  * Proficient in Pandas and NumPy for advanced data manipulation and statistical analysis.
+  * Experienced with the [Karolina supercomputer](https://www.it4i.cz/) in Ostrava, utilizing Slurm for job scheduling and management in high-performance computing environments.
+* **Configuration and System Management**:
+  * Proficient in using Hydra for dynamic configuration management.
+  * Strong background in operating systems management, including both Windows and Linux platforms.
+* **Data Analysis and Visualization**: Skilled in using Python-based libraries for data visualization and scientific computing, ensuring insightful, accurate visual representations of complex data sets.
+* **Interpersonal and Adaptability Skills**:
+  * Excellent capability to work effectively in multicultural environments.
+  * Proven ability to manage multiple tasks simultaneously, demonstrating strong organizational and multitasking skills.
 
 Publications
 ======
@@ -50,9 +68,19 @@ Publications
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
+    {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
+
+Field Experience
+======
+* **Seismic Data Acquisition**:
+  * Participated in multiple field trips for seismic data acquisition, deploying seismic stations in regions near the Andes in Chile. This involved extensive fieldwork, data collection, and preliminary data analysis to support seismic research initiatives.
+  
+* **Magnetotelluric Data Acquisition**:
+  * Conducted field operations for acquiring magnetotelluric data, deploying instrumentation in various regions of Norway, near Røros. Tasks included equipment setup, data monitoring, and ensuring data integrity for geophysical studies.
+
+
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
@@ -61,4 +89,5 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Active member of the Society of Exploration Geophysicists.
+* Delegate at the International Student Energy Summit, London, 2019.

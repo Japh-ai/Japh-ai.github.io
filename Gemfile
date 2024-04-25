@@ -25,4 +25,8 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'hawkins'
   gem "webrick", "~> 1.8"
+  gem "tzinfo" 
+
+  gem "tzinfo-data" # Add this line to include the tzinfo-data gem
+
 end

@@ -1,12 +1,10 @@
 ---
-title: "Paper Title Number 2"
+title: "Structure of the Northern Altar Pull-Apart Basin Revealed by a 2D Reflection Seismic Survey: Evolution of the Gulf of California Shear Zone in Northwest Mexico"
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+permalink: /publication/2022-09-01-paper1
+excerpt: 'The northern Gulf of California and Salton Trough contain segmented marginal basins abandoned during the oblique rift system’s evolution during Late Miocene-Early Pliocene.'
+date: 2022-09-01
+venue: 'Pure and Applied Geophysics'
+paperurl: 'https://link.springer.com/article/10.1007/s00024-022-03138-1'
+citation: 'Jorge Antonio Puente Huerta, Mario González-Escobar, Joann M Stock. (2022). &quot;Structure of the Northern Altar Pull-Apart Basin Revealed by a 2D Reflection Seismic Survey: Evolution of the Gulf of California Shear Zone in Northwest Mexico.&quot; <i>Pure and Applied Geophysics</i>. 179(9), 3191-3216.'
 ---
-
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
