@@ -1,19 +1,30 @@
 ---
 permalink: /
-title: "Who am I?"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Hello there! My name is Jorge Puente, and I am currently working towards my **PhD in Seismology at Charles University**, in Prague, Czech Republic, focusing on the innovative field of **automatic earthquake detection**. This specialized area involves the crucial task of seismic phase association, where I utilize a variety of methodologies including **advanced deep learning algorithms**.
+PhD candidate in Seismology & Machine Learning at [Charles University](https://www.cuni.cz/), Prague — part of the [ERC project MILESTONE](https://www.ig.cas.cz/en/research/projects/2021-milestone/) at the [Institute of Geophysics, Czech Academy of Sciences](https://www.ig.cas.cz/).
 
-My research primarily revolves around enhancing the accuracy and efficiency of detecting seismic events through automation. By integrating cutting-edge machine learning techniques with traditional seismic data analysis, I aim to improve the speed and reliability of earthquake detection processes.
+Working on deep learning for seismic time-series data: earthquake detection, phase association, and earthquake early warning.
 
-Since June 2021, I have been pursuing my doctoral studies at the [Institute of Geophysics](www.ig.cas.cz). 
-I conduct my research under the guidance of my supervisor Christian Sippl, whose expertise drives my ambition to contribute significantly to the seismological community.
+---
 
-Additionally, my PhD is integrated within the broader framework of the [ERC project MILESTONE](https://www.ig.cas.cz/en/research/projects/2021-milestone/), a collaborative initiative that seeks to revolutionize our approach to seismic monitoring with new technological advancements.
+## Research interests
 
-My research focuses on two main areas: utilization of advanced automated machine learning algorithms for seismic phase association in large datasets, and analyzing subduction zone dynamics using microseismicity. This dual approach helps reveal significant patterns and insights into Earth's subsurface processes.
+I work at the intersection of seismology and machine learning, using large-scale seismic datasets and deep learning to study earthquake processes and build automated monitoring tools.
+
+My main focus areas are:
+
+- **Seismic phase picking & association** — implementing and benchmarking ML models (CNNs, GNNs, RNNs) for automated detection and association of seismic phases in large continuous waveform datasets.
+- **Earthquake early warning** — building and evaluating probabilistic deep learning frameworks for real-time Earthquake Early Warning in Chile, Italy and Japan including re-implementing Transformer-based architectures from TensorFlow to PyTorch.
+
+
+I develop open-source and reproducible pipelines, and have field experience deploying seismic arrays in Finland, Chile, and participated in MT surveys in Norway.
+
+---
+
+**Contact:** puente (at) ig.cas.cz

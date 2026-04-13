@@ -6,85 +6,80 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-[Download PDF version](/files/CV_sept_2023.pdf){: .btn .btn--inverse}
+[Download PDF version](/files/1pg_cv.pdf){: .btn .btn--inverse}
 
 {% include base_path %}
 
 Education
 ======
-* Ph.D. in Seismology, Charles University in Prague, Expected 2025
-* M.S. in Earth Sciences, Major in Applied Geophysics, Center for Scientific Research and Higher Education at Ensenada, 2019
-* B.S. in Geosciences Engineering, Instituto Tecnológico de Ciudad Madero, 2017
+* **Ph.D. in Seismology & Machine Learning**, Charles University, Prague, Czech Republic, 2021 – Present
+  * Supervisor: Christian Sippl. ERC project MILESTONE.
+  * Thesis focused on deep learning for time-series data: earthquake detection, phase association, and earthquake early warning.
+* **M.Sc. in Earth Sciences — Applied Geophysics**, CICESE, Ensenada, Mexico, 2017 – 2019
+  * Thesis: Structure of a sector of the North Altar Basin, Sonora, with 2D seismic reflection data.
+* **B.Sc. in Geosciences Engineering**, Instituto Tecnológico de Ciudad Madero, Tamaulipas, Mexico, 2012 – 2017
 
 Work experience
 ======
-* **2021 - Present**: Researcher (Ph.D. candidate)
-  * Institute of Geophysics, Czech Academy of Sciences
-  * Duties include: Conducting fundamental and applied research in Earth Sciences.
+* **2021 – Present**: Researcher (Ph.D. candidate)
+  * Institute of Geophysics, Czech Academy of Sciences, Prague, Czech Republic
+  * Designed and trained deep-learning models (RNNs, CNNs, Transformers) for time-series classification, clustering, and regression on multi-sensor seismic data.
+  * Built end-to-end data pipelines converting raw waveforms into ML-ready datasets; applied augmentation techniques to improve domain robustness.
+  * Re-implemented and extended a Transformer-based probabilistic EEW model in PyTorch from TensorFlow.
+  * Built custom evaluation pipelines (precision–recall, AUC, F1, lead-time metrics) and benchmarking frameworks.
+  * Applied transfer learning and fine-tuning on limited real-world datasets; ensured reproducibility via Hydra and Git.
   * Supervisor: Christian Sippl
 
-* **Oct 2023 - Dec 2023**: Visiting Research Fellow
-  * Universidad de Concepción, Concepción, Biobío Region, Chile
-  * Full-time position focused on applying deep learning techniques in seismology, specially in Northern Chile's seismicity.
-  * Conducted research aimed at improving seismic data analysis through the integration of advanced machine learning models.
+* **Oct – Dec 2023**: Visiting Research Fellow
+  * Universidad de Concepción, Concepción, Chile
+  * Applied deep-learning models to refine earthquake catalogues of Northern Chile, including benchmarking of multiple algorithms under realistic noise conditions.
 
-* **2020 - 2020**: Field Geophysicist Engineer
-  * Geo Explorer Solutions
-  * Duties included: Data acquisition for water exploration using geophysical methods.
-  
+* **2020 – 2021**: IT Trainee
+  * Tata Consultancy Services, Mexico
+  * Supported Java/JavaScript web applications on Linux and Windows servers.
 
-* **2020 - 2021**: IT Trainee
-  * Tata Consultancy Services
-  * Duties included: Supporting web applications and client requirements on Windows and Linux systems.
-  
-
-* **2017 - 2019**: Data Processing & Interpretation Geophysicist Engineer
-  * Center for Scientific Research and Higher Education at Ensenada
-  * Duties included: Seismic data processing and interpretation for geophysical research.
-  * Supervisor: Mario Gonzalez Escobar
-
-
+* **2017 – 2019**: Data Processing & Interpretation Geophysicist
+  * CICESE, Ensenada, Mexico
+  * Processed and interpreted 2D reflection seismic data; characterised tectonostratigraphic features and correlated major faults with well-log data.
+  * Results published in Pure & Applied Geophysics (2022).
+  * Supervisor: Mario González-Escobar
 
 Skills
 ======
-* **Programming and Scripting**: Strong knowledge in Python. Familiar with PyTorch for deep learning algorithms and applications.
-* **Scientific and Technical Computing**:
-  * Extensive use of ObsPy for seismic data processing.
-  * Proficient in Pandas and NumPy for advanced data manipulation and statistical analysis.
-  * Experienced with the [Karolina supercomputer](https://www.it4i.cz/) in Ostrava, utilizing Slurm for job scheduling and management in high-performance computing environments.
-* **Configuration and System Management**:
-  * Proficient in using Hydra for dynamic configuration management.
-  * Strong background in operating systems management, including both Windows and Linux platforms.
-* **Data Analysis and Visualization**: Skilled in using Python-based libraries for data visualization and scientific computing, ensuring insightful, accurate visual representations of complex data sets.
-* **Interpersonal and Adaptability Skills**:
-  * Excellent capability to work effectively in multicultural environments.
-  * Proven ability to manage multiple tasks simultaneously, demonstrating strong organizational and multitasking skills.
+* **Languages**: Python, SQL, Bash
+* **ML / DL**: PyTorch, Scikit-learn, NumPy, Pandas, Matplotlib — Deep Learning (CNNs, Transformers, RNNs), Time-Series Modeling & Analysis, Transfer Learning, Data Augmentation, Model Benchmarking, Probabilistic Modeling
+* **Data Engineering & HPC**: Data Pipelines, Large-scale Dataset Processing, Slurm, GPU Training, Linux, HPC Clusters
+* **MLOps & Experiment Management**: Hydra, Git
+* **Tools**: VS Code, LaTeX, ObsPy
+
+Relevant Training
+======
+* Practical Deep Learning on HPC (CSC, LUMI Supercomputer, Finland, 2025)
+* Introduction to Deep Learning with PyTorch (2024)
+* AI & ML for Geosciences (Barcelona Supercomputing Center, 2024)
+* Machine Learning (Stanford/Coursera, 2020)
+* Data Science with Python (SciData, 2020)
+* ML Essentials for Seismic Interpretation (Geophysical Insights, 2019)
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
-  
 
 Field Experience
 ======
-* **Seismic Data Acquisition**:
-  * Participated in multiple field trips for seismic data acquisition, deploying seismic stations in regions near the Andes in Chile. This involved extensive fieldwork, data collection, and preliminary data analysis to support seismic research initiatives.
-  
-* **Magnetotelluric Data Acquisition**:
-  * Conducted field operations for acquiring magnetotelluric data, deploying instrumentation in various regions of Norway, near Røros. Tasks included equipment setup, data monitoring, and ensuring data integrity for geophysical studies.
+* **Broadband Array Deployment**, Finland, 2025 — 35-station broadband array deployment (co-authored GFZ dataset).
+* **Seismic Stations**, Chile, 2023 — Field deployment of seismic stations in Northern Chile.
+* **MT Surveys**, Norway, 2021 — Magnetotelluric data acquisition near Røros.
 
-
-Service and leadership
+Languages
 ======
-* Active member of the Society of Exploration Geophysicists.
-* Delegate at the International Student Energy Summit, London, 2019.
-
-
+* Spanish (Native)
+* English (Fluent — TOEFL iBT 95)

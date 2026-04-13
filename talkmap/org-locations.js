@@ -28,5 +28,10 @@ var addressPoints = [
     "Concepcion, Chile",
     -36.8270795,
     -73.0502399
+  ],
+  [
+    "Washington DC, USA",
+    38.9072,
+    -77.0369
   ]
 ];
